@@ -292,21 +292,21 @@
                         <form>
                             <div class="mb-3">
                                 <label for="nome" class="form-label fw-bold text-colored">Seu nome:</label>
-                                <input type="text" class="form-control" id="nome" required/>
+                                <input type="text" class="form-control" id="nome" name="nome" required/>
                             </div>
                             <div class="mb-3">
                                 <label for="email" class="form-label fw-bold text-colored">Seu email:</label>
-                                <input type="text" class="form-control" id="email" required/>
+                                <input type="text" class="form-control" id="email" name="email" required/>
                             </div>
                             <div class="mb-3">
                                 <label for="telefone" class="form-label fw-bold text-colored">Seu telefone(opcional)</label>
-                                <input type="tel" class="form-control" id="telefone"/>
+                                <input type="tel" class="form-control" id="telefone" name="telefone"/>
                             </div>
                             <div class="mb-3">
                                 <label for="mensagem" class="form-label fw-bold text-colored">
                                     Sua mensagem:
                                 </label>
-                                <textarea id="mensagem" class="form-control" required></textarea>
+                                <textarea id="mensagem" class="form-control" name="mensagem" required></textarea>
                             </div>
                             <button type="submit" class="btn fw-bold">Enviar</button>
                         </form>
@@ -348,5 +348,10 @@
         </section>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
